@@ -1,7 +1,11 @@
-<h1 align="center">Atharv | Full Stack Developer & AI Engineer</h1>
+<h1 align="center">Atharv</h1>
 
 <p align="center">
-Building AI Systems • SaaS Products • Full Stack Applications
+  <b>AI Engineer • Full Stack Developer • Product Builder</b>
+</p>
+
+<p align="center">
+Building AI-powered SaaS platforms, scalable backend systems, and modern web applications.
 </p>
 
 <p align="center">
@@ -14,136 +18,126 @@ Building AI Systems • SaaS Products • Full Stack Applications
 
 ## 🚀 About Me
 
-- 🎓 B.Tech Artificial Intelligence & Data Science @ Ajeenkya DY Patil University
-- 💻 Full Stack Developer focused on scalable web applications
-- 🤖 Building AI-powered SaaS products and multi-agent systems
-- 🚀 Creator of AI Career Twin & Team Balancer
-- 🌱 Exploring AI Engineering, RAG Systems, FastAPI, PostgreSQL & System Design
-- ⚡ Passionate about building products and solving real-world problems
+- 🎓 B.Tech Artificial Intelligence & Data Science
+- 💻 Full Stack Developer focused on product engineering
+- 🤖 Building AI-powered SaaS applications
+- 🏗️ Interested in System Design, Backend Engineering & AI Systems
+- 🌱 Currently learning AI Engineering, RAG, Agentic AI & Scalable Architectures
+- ⚡ Building products that solve real-world problems
 
 ---
 
-# 🚀 Featured Projects
+# 🌟 Featured Projects
 
 ## 🤖 AI Career Twin
 
-Multi-Agent AI Career Intelligence Platform that helps users optimize resumes, improve LinkedIn profiles, identify skill gaps, generate learning roadmaps, and prepare for interviews.
+Multi-Agent Career Intelligence Platform helping students and professionals optimize resumes, improve LinkedIn profiles, identify skill gaps, generate roadmaps, and prepare for interviews.
+
+### Highlights
+
+- 8 Specialized AI Agents
+- Resume Intelligence
+- LinkedIn Growth Engine
+- Skill Gap Analysis
+- Career Roadmaps
+- Interview Coach
+- Career Intelligence Dashboard
+- RAG + Vector Search
 
 ### Tech Stack
 
-- Next.js
-- TypeScript
-- FastAPI
-- PostgreSQL
-- pgvector
-- PydanticAI
-- Tailwind CSS
-- Vercel
+`Next.js`
+`FastAPI`
+`PostgreSQL`
+`pgvector`
+`TypeScript`
+`Tailwind CSS`
+`PydanticAI`
+`Vercel`
 
-🔗 **Live Demo:** https://ai-careertwin.vercel.app
+🔗 Live Demo: https://ai-careertwin.vercel.app
 
 ---
 
 ## ⚽ Team Balancer
 
-A full-stack sports team generation platform that creates fair and balanced teams using rating-based algorithms, role balancing, and optimization techniques.
+Fair Team Generation Platform for sports communities.
 
-### Features
+Generate balanced teams using ratings, role distribution, fairness metrics, and audit logging.
 
-- Cricket Team Generator
-- Football Team Generator
-- Random Team Generator
-- Custom Team Builder
-- Public Share Links
+### Highlights
+
+- Smart Team Balancing Algorithm
 - Fairness Scoring
-- Immutable Audit Logs
+- Player Rating System
+- Position Balancing
+- Public Share Links
+- Generation History
+- Audit Logs
+- Anonymous to Auth Workflows
 
 ### Tech Stack
 
-- Next.js
-- TypeScript
-- Supabase
-- PostgreSQL
-- Tailwind CSS
-- Vercel
+`Next.js`
+`Supabase`
+`PostgreSQL`
+`TypeScript`
+`Tailwind CSS`
 
-🔗 **Live Demo:** https://balanceteams.com
-
----
-
-## 🌐 Portfolio
-
-Modern developer portfolio showcasing projects, architecture case studies, technical skills, and product engineering work.
-
-🔗 **Live Demo:** https://atharvportfolio-eight.vercel.app
+🔗 Live Demo: https://balanceteams.com
 
 ---
 
-# 💻 Tech Stack
+# 🛠 Tech Stack
 
 ### Languages
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
 ### Frontend
 
-![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
 
 ### Backend
 
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs)
 
-### Databases
+### Database
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase)
-
-### AI & Engineering
-
-![PydanticAI](https://img.shields.io/badge/PydanticAI-111111?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-4A90E2?style=for-the-badge)
-![Multi Agent Systems](https://img.shields.io/badge/Multi_Agent_Systems-6C63FF?style=for-the-badge)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge)
 
 ### Tools
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code)
+![Vercel](https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel)
 
 ---
 
-# 📊 GitHub Stats
+# 📊 GitHub Statistics
 
-![](https://github-readme-stats.vercel.app/api?username=Atharvsrivastav&theme=tokyonight&show_icons=true&hide_border=true)
+![](https://github-readme-stats.vercel.app/api?username=Atharvsrivastav&theme=tokyonight&show_icons=true)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=Atharvsrivastav&theme=tokyonight&hide_border=true)
+![](https://github-readme-streak-stats.herokuapp.com/?user=Atharvsrivastav&theme=tokyonight)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Atharvsrivastav&layout=compact&theme=tokyonight&hide_border=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Atharvsrivastav&layout=compact&theme=tokyonight)
 
 ---
 
-# 🌐 Connect With Me
+# 📫 Connect With Me
 
-- Portfolio → https://atharvportfolio-eight.vercel.app
-- AI Career Twin → https://ai-careertwin.vercel.app
-- Team Balancer → https://balanceteams.com
-- GitHub → https://github.com/Atharvsrivastav
-- LinkedIn → https://linkedin.com/in/atharv-dev
-- Email → atharv3444@gmail.com
+- Portfolio: https://atharvportfolio-eight.vercel.app
+- LinkedIn: https://linkedin.com/in/atharv-dev
+- Email: atharv3444@gmail.com
 
 ---
 
 <p align="center">
-<b>Build Products. Ship Fast. Learn Continuously.</b>
+Built with ❤️ by Atharv
 </p>

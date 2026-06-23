@@ -58,11 +58,11 @@ const atharv = {
 <div align="center">
 
 <a href="https://github.com/Atharvsrivastav/ai-career-twin">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvsrivastav&repo=ai-career-twin&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvsrivastav&repo=ai-career-twin&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6&description_lines_count=2" />
 </a>
 &nbsp;
 <a href="https://github.com/Atharvsrivastav/Atharv-portfolio">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvsrivastav&repo=Atharv-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvsrivastav&repo=Atharv-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6&description_lines_count=2" />
 </a>
 
 </div>
@@ -151,9 +151,9 @@ Full-stack platform that generates skill-balanced sports teams using custom weig
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Atharvsrivastav&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Atharvsrivastav&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6&count_private=true&show=reviews,discussions_started" />
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atharvsrivastav&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&langs_count=8" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atharvsrivastav&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&langs_count=8&hide=html" />
 
 </div>
 

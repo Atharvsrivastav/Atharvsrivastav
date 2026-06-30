@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060d" />
+      <stop offset="50%" stop-color="#090e1f" />
+      <stop offset="100%" stop-color="#050814" />
+    </linearGradient>
+
+    <!-- Glowing Box Shadow -->
+    <filter id="win-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#3B82F6" flood-opacity="0.15" />
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Outfit:wght@500;700;800&amp;display=swap');
+
+    .bg { fill: url(#bg-grad); }
+
+    /* VS Code Workspace Frame */
+    .editor-frame {
+      fill: #080C14;
+      stroke: #1E293B;
+      stroke-width: 1px;
+      filter: url(#win-glow);
+      rx: 8px;
+    }
+
+    /* Sidebar Background */
+    .sidebar-bg {
+      fill: #06090F;
+      stroke: #1E293B;
+      stroke-width: 0.5px;
+    }
+
+    /* Editor Background */
+    .editor-bg {
+      fill: #090D16;
+    }
+
+    /* Text Fonts &amp; Sizes */
+    .sb-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 10px;
+      font-weight: 800;
+      fill: #475569;
+      letter-spacing: 1px;
+    }
+    .sb-file {
+      font-family: 'Outfit', sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #64748B;
+      cursor: pointer;
+    }
+    .sb-file.active {
+      fill: #F8FAFC;
+    }
+    .sb-active-bg {
+      fill: #1E293B;
+      fill-opacity: 0.4;
+    }
+
+    /* Code Editor Typography */
+    .code-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13.5px;
+      fill: #94A3B8;
+    }
+    
+    .line-num {
+      fill: #334155;
+      text-anchor: end;
+      font-weight: 700;
+    }
+
+    /* Token Highlighting (Tokyo Night inspired) */
+    .t-kw   { fill: #BB9AF7; font-weight: 700; } /* const, let, export */
+    .t-var  { fill: #7CA1F7; }                   /* variable names */
+    .t-prop { fill: #FF757F; }                   /* object properties */
+    .t-str  { fill: #9ECE6A; }                   /* strings */
+    .t-punc { fill: #89DDFF; }                   /* punctuation, braces */
+    .t-comm { fill: #565F89; font-style: italic; } /* comments */
+
+    /* Blinking Cursor */
+    .code-cursor {
+      fill: #3B82F6;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Background Layer -->
+  <rect class="bg" width="800" height="440" rx="12" />
+
+  <!-- IDE Window (15px margin all around) -->
+  <g transform="translate(15, 15)">
+    <!-- Main Frame -->
+    <rect class="editor-frame" width="770" height="410" />
+
+    <!-- Window Header (x=0 to 770, y=0 to 35) -->
+    <path d="M 0,8 A 8,8 0 0,1 8,0 L 762,0 A 8,8 0 0,1 770,8 L 770,35 L 0,35 Z" fill="#05080E" stroke="#1E293B" stroke-width="0.5" />
+    
+    <!-- Window OS Control Dots -->
+    <circle cx="16" cy="17" r="4.5" fill="#FF5F56" />
+    <circle cx="28" cy="17" r="4.5" fill="#FFBD2E" />
+    <circle cx="40" cy="17" r="4.5" fill="#27C93F" />
+    
+    <!-- Center Header Title -->
+    <text x="385" y="21" font-family="'Outfit', sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">workspace // atharv-ai-labs</text>
+
+    <!-- Layout Grid: Sidebar + Editor -->
+    <!-- Sidebar: x=0 to 180, y=35 to 410 -->
+    <g transform="translate(0, 35)">
+      <!-- Sidebar bg -->
+      <rect class="sidebar-bg" width="180" height="375" />
+      <line x1="180" y1="0" x2="180" y2="375" stroke="#1E293B" stroke-width="1" />
+
+      <!-- Section Title -->
+      <text class="sb-title" x="15" y="25">EXPLORER: ATHARV</text>
+
+      <!-- Expand Arrow Down -->
+      <path d="M 16,42 L 22,48 L 28,42" fill="none" stroke="#64748B" stroke-width="1.5" />
+      <text class="sb-title" x="35" y="47" fill="#64748B">WORKSPACE FILES</text>
+
+      <!-- File Structure -->
+      <!-- Folder src -->
+      <path d="M 22,65 L 28,71 L 34,65" fill="none" stroke="#64748B" stroke-width="1.5" />
+      <text class="sb-file" x="42" y="70" font-weight="bold">src</text>
+
+      <!-- File: atharv.ts (ACTIVE) -->
+      <rect class="sb-active-bg" x="0" y="82" width="180" height="24" />
+      <rect x="0" y="82" width="3" height="24" fill="#3B82F6" />
+      <rect x="52" y="88" width="10" height="10" fill="#3178C6" rx="1" />
+      <text x="54" y="96" font-family="sans-serif" font-size="7" font-weight="900" fill="#FFF">TS</text>
+      <text class="sb-file active" x="68" y="98">atharv.ts</text>
+
+      <!-- File: ai-twin.py -->
+      <rect x="52" y="112" width="10" height="10" fill="#3776AB" rx="1" />
+      <text x="54" y="120" font-family="sans-serif" font-size="7" font-weight="900" fill="#FFF">PY</text>
+      <text class="sb-file" x="68" y="122">ai-twin.py</text>
+
+      <!-- File: balancer.ts -->
+      <rect class="ts-icon" x="52" y="136" width="10" height="10" rx="1" />
+      <text x="54" y="144" font-family="sans-serif" font-size="7" font-weight="900" fill="#FFF">TS</text>
+      <text class="sb-file" x="68" y="146">balancer.ts</text>
+
+      <!-- Folder assets -->
+      <path d="M 22,174 L 28,180 L 34,174" fill="none" stroke="#64748B" stroke-width="1.5" />
+      <text class="sb-file" x="42" y="179">assets</text>
+
+      <!-- File: package.json -->
+      <rect x="30" y="196" width="10" height="10" fill="#CBCB41" rx="1" />
+      <text x="32" y="204" font-family="sans-serif" font-size="7" font-weight="900" fill="#000">{}</text>
+      <text class="sb-file" x="46" y="206">package.json</text>
+    </g>
+
+    <!-- Editor Area: x=180 to 770, y=35 to 410 -->
+    <g transform="translate(180, 35)">
+      <!-- Editor bg -->
+      <rect class="editor-bg" width="590" height="375" />
+
+      <!-- Active Tab Bar -->
+      <rect fill="#06090F" width="590" height="30" />
+      <line x1="0" y1="30" x2="590" y2="30" stroke="#1E293B" stroke-width="0.5" />
+
+      <!-- Active Tab -->
+      <path d="M 0,30 L 5,5 A 3,3 0 0,1 8,2 L 115,2 A 3,3 0 0,1 118,5 L 123,30 Z" fill="#090D16" />
+      <line x1="0" y1="0" x2="123" y2="0" stroke="#3B82F6" stroke-width="1.5" />
+      
+      <rect class="ts-icon" x="12" y="9" width="10" height="10" rx="1" />
+      <text x="14" y="17" font-family="sans-serif" font-size="7" font-weight="900" fill="#FFF">TS</text>
+      <text x="28" y="18" font-family="'Outfit', sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">atharv.ts</text>
+      <!-- Close icon (x) -->
+      <path d="M 103,11 L 109,17 M 109,11 L 103,17" fill="none" stroke="#64748B" stroke-width="1" />
+
+      <!-- Editor Code Body (y=30 onwards) -->
+      <g transform="translate(10, 45)">
+        <!-- Line Numbers Gutter -->
+        <text x="25" y="18" class="code-text line-num">1</text>
+        <text x="25" y="38" class="code-text line-num">2</text>
+        <text x="25" y="58" class="code-text line-num">3</text>
+        <text x="25" y="78" class="code-text line-num">4</text>
+        <text x="25" y="98" class="code-text line-num">5</text>
+        <text x="25" y="118" class="code-text line-num">6</text>
+        <text x="25" y="138" class="code-text line-num">7</text>
+        <text x="25" y="158" class="code-text line-num">8</text>
+        <text x="25" y="178" class="code-text line-num">9</text>
+        <text x="25" y="198" class="code-text line-num">10</text>
+        <text x="25" y="218" class="code-text line-num">11</text>
+        <text x="25" y="238" class="code-text line-num">12</text>
+        <text x="25" y="258" class="code-text line-num">13</text>
+        <text x="25" y="278" class="code-text line-num">14</text>
+        <text x="25" y="298" class="code-text line-num">15</text>
+        <text x="25" y="318" class="code-text line-num">16</text>
+
+        <!-- Code Content -->
+        <g transform="translate(45, 0)">
+          <!-- Line 1: const atharv = { -->
+          <text x="0" y="18" class="code-text">
+            <tspan class="t-kw">const</tspan> <tspan class="t-var">atharv</tspan> <tspan class="t-punc">=</tspan> <tspan class="t-punc">{</tspan>
+          </text>
+
+          <!-- Line 2: name: "Atharv Srivastava", -->
+          <text x="0" y="38" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">name</tspan><tspan class="t-punc">:</tspan> <tspan class="t-str">"Atharv Srivastava"</tspan><tspan class="t-punc">,</tspan>
+          </text>
+
+          <!-- Line 3: role: "AI & Full-Stack Engineer", -->
+          <text x="0" y="58" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">role</tspan><tspan class="t-punc">:</tspan> <tspan class="t-str">"AI &amp; Full-Stack Engineer"</tspan><tspan class="t-punc">,</tspan>
+          </text>
+
+          <!-- Line 4: university: "Ajeenkya DY Patil University", -->
+          <text x="0" y="78" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">university</tspan><tspan class="t-punc">:</tspan> <tspan class="t-str">"Ajeenkya DY Patil University, Pune"</tspan><tspan class="t-punc">,</tspan>
+          </text>
+
+          <!-- Line 5: degree: "B.Tech — AI & Data Science", -->
+          <text x="0" y="98" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">degree</tspan><tspan class="t-punc">:</tspan> <tspan class="t-str">"B.Tech — AI &amp; Data Science"</tspan><tspan class="t-punc">,</tspan>
+          </text>
+
+          <!-- Line 6: cgpa: "8.0 (First Year)", -->
+          <text x="0" y="118" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">cgpa</tspan><tspan class="t-punc">:</tspan> <tspan class="t-str">"8.0 (First Year)"</tspan><tspan class="t-punc">,</tspan>
+          </text>
+
+          <!-- Line 7: focus: [...] -->
+          <text x="0" y="138" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">focus</tspan><tspan class="t-punc">:</tspan> <tspan class="t-punc">[</tspan><tspan class="t-str">"AI Systems"</tspan><tspan class="t-punc">,</tspan> <tspan class="t-str">"Agentic AI"</tspan><tspan class="t-punc">,</tspan> <tspan class="t-str">"Full-Stack"</tspan><tspan class="t-punc">,</tspan> <tspan class="t-str">"SaaS"</tspan><tspan class="t-punc">],</tspan>
+          </text>
+
+          <!-- Line 8: currentlyBuilding: [ -->
+          <text x="0" y="158" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">currentlyBuilding</tspan><tspan class="t-punc">:</tspan> <tspan class="t-punc">[</tspan>
+          </text>
+
+          <!-- Line 9: ai-career-twin -->
+          <text x="0" y="178" class="code-text">
+            <tspan>    </tspan><tspan class="t-str">"🤖 AI Career Twin   — Multi-agent AI SaaS"</tspan><tspan class="t-punc">,</tspan>
+          </text>
+
+          <!-- Line 10: team-balancer -->
+          <text x="0" y="198" class="code-text">
+            <tspan>    </tspan><tspan class="t-str">"⚽ Team Balancer    — Balanced roster algorithm"</tspan><tspan class="t-punc">,</tspan>
+          </text>
+
+          <!-- Line 11: portfolio -->
+          <text x="0" y="218" class="code-text">
+            <tspan>    </tspan><tspan class="t-str">"🌐 Atharv Portfolio — Interactive motion portfolio"</tspan>
+          </text>
+
+          <!-- Line 12: ] -->
+          <text x="0" y="238" class="code-text">
+            <tspan>  </tspan><tspan class="t-punc">],</tspan>
+          </text>
+
+          <!-- Line 13: askMeAbout: [...] -->
+          <text x="0" y="258" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">askMeAbout</tspan><tspan class="t-punc">:</tspan> <tspan class="t-punc">[</tspan><tspan class="t-str">"Next.js"</tspan><tspan class="t-punc">,</tspan> <tspan class="t-str">"FastAPI"</tspan><tspan class="t-punc">,</tspan> <tspan class="t-str">"PostgreSQL"</tspan><tspan class="t-punc">,</tspan> <tspan class="t-str">"Agentic RAG"</tspan><tspan class="t-punc">],</tspan>
+          </text>
+
+          <!-- Line 14: philosophy -->
+          <text x="0" y="278" class="code-text">
+            <tspan>  </tspan><tspan class="t-prop">philosophy</tspan><tspan class="t-punc">:</tspan> <tspan class="t-str">"Ship real software. Solve real problems."</tspan>
+          </text>
+
+          <!-- Line 15: }; -->
+          <text x="0" y="298" class="code-text">
+            <tspan class="t-punc">};</tspan>
+          </text>
+
+          <!-- Line 16: Comment &amp; Cursor -->
+          <text x="0" y="318" class="code-text">
+            <tspan class="t-comm">// Ready to collaborate </tspan><rect class="code-cursor" x="175" y="-10" width="6" height="13" />
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

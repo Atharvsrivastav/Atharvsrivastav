@@ -1,0 +1,374 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="50%" stop-color="#090e1f" />
+      <stop offset="100%" stop-color="#04060d" />
+    </linearGradient>
+
+    <!-- Text Name Gradient -->
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+
+    <!-- Pulse Particle Gradient -->
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0" />
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="1" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </linearGradient>
+    
+    <!-- Ambient Radial Glows -->
+    <radialGradient id="glow-left" cx="0%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-right" cx="90%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Clip Paths for Monospace Typing (Width matches character length * width per char) -->
+    <!-- JetBrains Mono at 16px is approx 9.6px per character. -->
+    <!-- "AI & Full-Stack Engineer" = 25 chars -> ~240px -->
+    <!-- "Building Multi-Agent SaaS" = 25 chars -> ~240px -->
+    <!-- "Shipping Production Code" = 24 chars -> ~230px -->
+    <clipPath id="clip-line1">
+      <rect id="rect-line1" x="0" y="0" width="0" height="30" />
+    </clipPath>
+    <clipPath id="clip-line2">
+      <rect id="rect-line2" x="0" y="0" width="0" height="30" />
+    </clipPath>
+    <clipPath id="clip-line3">
+      <rect id="rect-line3" x="0" y="0" width="0" height="30" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Outfit:wght@400;600;800&amp;display=swap');
+
+    /* CSS Animations */
+    .bg { fill: url(#bg-grad); }
+    .glow-l { fill: url(#glow-left); }
+    .glow-r { fill: url(#glow-right); }
+
+    /* Name Styling */
+    .name-text {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      fill: url(#name-grad);
+      letter-spacing: -0.5px;
+    }
+
+    /* Subtitle Terminal Styling */
+    .term-prompt {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 700;
+      fill: #64748B;
+    }
+    
+    .term-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 400;
+      fill: #3B82F6;
+    }
+
+    .term-text.highlight {
+      fill: #F43F5E;
+    }
+
+    .term-text.green {
+      fill: #10B981;
+    }
+
+    /* Grid Overlay Styling */
+    .grid-line {
+      stroke: #1E293B;
+      stroke-width: 0.5px;
+      opacity: 0.3;
+    }
+    
+    /* Live Status Badge */
+    .status-dot {
+      fill: #10B981;
+      animation: pulse-dot 2s infinite;
+    }
+    .status-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      fill: #10B981;
+      font-weight: 700;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+
+    /* Text Typing Width Keyframes */
+    #rect-line1 { animation: typing-width1 12s steps(25) infinite; }
+    #rect-line2 { animation: typing-width2 12s steps(25) infinite; }
+    #rect-line3 { animation: typing-width3 12s steps(24) infinite; }
+
+    @keyframes typing-width1 {
+      0% { width: 0; }
+      8% { width: 240px; } /* type */
+      28% { width: 240px; } /* hold */
+      33% { width: 0; } /* delete */
+      100% { width: 0; }
+    }
+    @keyframes typing-width2 {
+      0%, 33% { width: 0; }
+      41% { width: 240px; } /* type */
+      61% { width: 240px; } /* hold */
+      66% { width: 0; } /* delete */
+      100% { width: 0; }
+    }
+    @keyframes typing-width3 {
+      0%, 66% { width: 0; }
+      74% { width: 230px; } /* type */
+      94% { width: 230px; } /* hold */
+      99% { width: 0; } /* delete */
+      100% { width: 0; }
+    }
+
+    /* Group Visibility Toggles */
+    .line-group1 { animation: line-visible1 12s infinite; }
+    .line-group2 { animation: line-visible2 12s infinite; }
+    .line-group3 { animation: line-visible3 12s infinite; }
+
+    @keyframes line-visible1 {
+      0%, 33% { opacity: 1; }
+      33.01%, 100% { opacity: 0; }
+    }
+    @keyframes line-visible2 {
+      0%, 33% { opacity: 0; }
+      33.01%, 66% { opacity: 1; }
+      66.01%, 100% { opacity: 0; }
+    }
+    @keyframes line-visible3 {
+      0%, 66% { opacity: 0; }
+      66.01%, 99.99% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    /* Terminal Cursor */
+    .cursor {
+      animation: cursor-blink 0.8s infinite, cursor-move 12s infinite;
+      fill: #3B82F6;
+    }
+    @keyframes cursor-blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes cursor-move {
+      /* Line 1 Typing */
+      0% { transform: translateX(0); }
+      8% { transform: translateX(240px); }
+      28% { transform: translateX(240px); }
+      33% { transform: translateX(0); }
+      
+      /* Line 2 Typing */
+      33.01% { transform: translateX(0); }
+      41% { transform: translateX(240px); }
+      61% { transform: translateX(240px); }
+      66% { transform: translateX(0); }
+      
+      /* Line 3 Typing */
+      66.01% { transform: translateX(0); }
+      74% { transform: translateX(230px); }
+      94% { transform: translateX(230px); }
+      99% { transform: translateX(0); }
+      100% { transform: translateX(0); }
+    }
+
+    /* Neural Network Animations */
+    .network-node {
+      transition: all 0.3s ease;
+      transform-origin: center;
+    }
+    .node-pulse {
+      animation: node-glow 3s infinite alternate;
+    }
+    @keyframes node-glow {
+      0% { r: 4px; opacity: 0.6; }
+      100% { r: 7px; opacity: 1; }
+    }
+    
+    .net-link {
+      stroke: #1E293B;
+      stroke-width: 1px;
+      opacity: 0.4;
+      stroke-dasharray: 4, 4;
+    }
+    
+    /* Flowing Data Particles */
+    .flow-particle {
+      stroke-dasharray: 8, 120;
+      stroke-linecap: round;
+      stroke-width: 2px;
+      fill: none;
+      animation: flow-run 4s infinite linear;
+    }
+    
+    #flow1 { stroke: #60A5FA; animation-duration: 4.5s; }
+    #flow2 { stroke: #A78BFA; animation-duration: 6s; animation-delay: 1.5s; }
+    #flow3 { stroke: #F472B6; animation-duration: 5s; animation-delay: 0.5s; }
+    #flow4 { stroke: #34D399; animation-duration: 5.5s; animation-delay: 2.2s; }
+    
+    @keyframes flow-run {
+      0% { stroke-dashoffset: 150; }
+      100% { stroke-dashoffset: -150; }
+    }
+
+    /* Floating groups for natural movement */
+    .float-group-slow {
+      animation: float-slow 8s infinite alternate ease-in-out;
+    }
+    .float-group-fast {
+      animation: float-fast 6s infinite alternate ease-in-out;
+    }
+    @keyframes float-slow {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(3px, -5px); }
+    }
+    @keyframes float-fast {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(-4px, 3px); }
+    }
+  </style>
+
+  <!-- Background Layer -->
+  <rect class="bg" width="800" height="200" rx="12" />
+  
+  <!-- Glowing lights -->
+  <rect class="glow-l" width="800" height="200" rx="12" />
+  <rect class="glow-r" width="800" height="200" rx="12" />
+
+  <!-- Grid overlay -->
+  <g>
+    <!-- Vertical Grid Lines -->
+    <line class="grid-line" x1="50" y1="0" x2="50" y2="200" />
+    <line class="grid-line" x1="100" y1="0" x2="100" y2="200" />
+    <line class="grid-line" x1="150" y1="0" x2="150" y2="200" />
+    <line class="grid-line" x1="200" y1="0" x2="200" y2="200" />
+    <line class="grid-line" x1="250" y1="0" x2="250" y2="200" />
+    <line class="grid-line" x1="300" y1="0" x2="300" y2="200" />
+    <line class="grid-line" x1="350" y1="0" x2="350" y2="200" />
+    <line class="grid-line" x1="400" y1="0" x2="400" y2="200" />
+    <line class="grid-line" x1="450" y1="0" x2="450" y2="200" />
+    <line class="grid-line" x1="500" y1="0" x2="500" y2="200" />
+    <line class="grid-line" x1="550" y1="0" x2="550" y2="200" />
+    <line class="grid-line" x1="600" y1="0" x2="600" y2="200" />
+    <line class="grid-line" x1="650" y1="0" x2="650" y2="200" />
+    <line class="grid-line" x1="700" y1="0" x2="700" y2="200" />
+    <line class="grid-line" x1="750" y1="0" x2="750" y2="200" />
+    <!-- Horizontal Grid Lines -->
+    <line class="grid-line" x1="0" y1="40" x2="800" y2="40" />
+    <line class="grid-line" x1="0" y1="80" x2="800" y2="80" />
+    <line class="grid-line" x1="0" y1="120" x2="800" y2="120" />
+    <line class="grid-line" x1="0" y1="160" x2="800" y2="160" />
+  </g>
+
+  <!-- Left Side Content: Branding & Text Info -->
+  <g transform="translate(35, 45)">
+    <!-- Tech Tag -->
+    <rect x="0" y="0" width="168" height="20" rx="4" fill="#1E293B" opacity="0.6" />
+    <text x="8" y="14" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#94A3B8">ATHARVSRIVASTAV // B.TECH</text>
+
+    <!-- Main Title: Name -->
+    <text x="0" y="55" class="name-text">Atharv Srivastava</text>
+
+    <!-- Animated Typing Console -->
+    <g transform="translate(0, 85)">
+      <!-- Prompt Symbol -->
+      <text x="0" y="15" class="term-prompt">&gt;</text>
+      
+      <!-- Monospace Typing Groups -->
+      <!-- Line 1 -->
+      <g class="line-group1" clip-path="url(#clip-line1)">
+        <text x="18" y="15" class="term-text">AI &amp; Full-Stack Engineer</text>
+      </g>
+      
+      <!-- Line 2 -->
+      <g class="line-group2" clip-path="url(#clip-line2)">
+        <text x="18" y="15" class="term-text highlight">Building Multi-Agent SaaS</text>
+      </g>
+      
+      <!-- Line 3 -->
+      <g class="line-group3" clip-path="url(#clip-line3)">
+        <text x="18" y="15" class="term-text green">Shipping Production Code</text>
+      </g>
+      
+      <!-- Blinking/Moving Cursor -->
+      <rect class="cursor" x="18" y="1" width="8" height="17" />
+    </g>
+  </g>
+
+  <!-- Live System Status (Top Right) -->
+  <g transform="translate(680, 25)" class="float-group-slow">
+    <circle class="status-dot" cx="0" cy="0" r="5" />
+    <text class="status-text" x="12" y="4">SYSTEM ACTIVE</text>
+  </g>
+
+  <!-- Right Side Content: Organic Floating Neural Network -->
+  <!-- float-group-slow and float-group-fast apply subtle vertical translation -->
+  <g transform="translate(560, 50)">
+    
+    <!-- Link Lines (Static Background) -->
+    <!-- Nodes Coordinates relative to group:
+         N_Center = (100, 50)
+         N_TL     = (30, 10)
+         N_TR     = (170, 10)
+         N_BL     = (30, 90)
+         N_BR     = (170, 90)
+         N_FarL   = (-20, 50)
+         N_FarR   = (220, 50)
+    -->
+    <path class="net-link" d="M -20,50 L 30,10" />
+    <path class="net-link" d="M -20,50 L 30,90" />
+    <path class="net-link" d="M 30,10 L 100,50" />
+    <path class="net-link" d="M 30,90 L 100,50" />
+    <path class="net-link" d="M 100,50 L 170,10" />
+    <path class="net-link" d="M 100,50 L 170,90" />
+    <path class="net-link" d="M 170,10 L 220,50" />
+    <path class="net-link" d="M 170,90 L 220,50" />
+    <path class="net-link" d="M 30,10 L 30,90" />
+    <path class="net-link" d="M 170,10 L 170,90" />
+
+    <!-- Pulse Flow Overlays -->
+    <path id="flow1" class="flow-particle" d="M -20,50 L 30,10 L 100,50" />
+    <path id="flow2" class="flow-particle" d="M -20,50 L 30,90 L 100,50" />
+    <path id="flow3" class="flow-particle" d="M 100,50 L 170,10 L 220,50" />
+    <path id="flow4" class="flow-particle" d="M 100,50 L 170,90 L 220,50" />
+
+    <!-- Float Group Slow (TL, BR, FarL) -->
+    <g class="float-group-slow">
+      <!-- Node TL -->
+      <circle cx="30" cy="10" r="4.5" fill="#3B82F6" stroke="#050814" stroke-width="1.5" class="network-node" />
+      <!-- Node BR -->
+      <circle cx="170" cy="90" r="5" fill="#EC4899" stroke="#050814" stroke-width="1.5" class="network-node" />
+      <!-- Node FarL -->
+      <circle cx="-20" cy="50" r="4" fill="#8B5CF6" stroke="#050814" stroke-width="1.5" class="network-node" />
+    </g>
+
+    <!-- Float Group Fast (TR, BL, FarR) -->
+    <g class="float-group-fast">
+      <!-- Node TR -->
+      <circle cx="170" cy="10" r="4.5" fill="#8B5CF6" stroke="#050814" stroke-width="1.5" class="network-node" />
+      <!-- Node BL -->
+      <circle cx="30" cy="90" r="5" fill="#10B981" stroke="#050814" stroke-width="1.5" class="network-node" />
+      <!-- Node FarR -->
+      <circle cx="220" cy="50" r="4" fill="#3B82F6" stroke="#050814" stroke-width="1.5" class="network-node" />
+    </g>
+
+    <!-- Center Node (Focal Point, Pulses separately) -->
+    <circle cx="100" cy="50" r="6" fill="#60A5FA" stroke="#050814" stroke-width="2" class="network-node node-pulse" />
+    <circle cx="100" cy="50" r="12" fill="#3B82F6" fill-opacity="0.2" class="node-pulse" />
+  </g>
+</svg>

@@ -1,230 +1,181 @@
-<div align="center">
-
 <!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Atharv%20Srivastava&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20%26%20Full-Stack%20Engineer%20%7C%20Building%20Real-World%20Software&descAlignY=55&descSize=16" />
-
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=B.Tech+AI+%26+Data+Science+%40+ADYPU;Full-Stack+Engineer+%7C+Next.js+%7C+FastAPI;Creator+of+AI+Career+Twin+%F0%9F%A4%96;Shipping+Production-Grade+Software;CGPA+8.0+%7C+First+Year" alt="Typing SVG" />
+<div align="center">
+  <img width="100%" src="assets/header.svg" alt="Atharv Srivastava - AI &amp; Full-Stack Engineer" />
+</div>
 
 <br/>
 
-<p>
-  <a href="https://www.linkedin.com/in/atharv-dev">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<!-- Typing SVG Sub-header -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;pause=1500&amp;color=3B82F6&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=B.Tech+AI+%26+Data+Science+%40+ADYPU;Full-Stack+Engineer+%7C+Next.js+%7C+FastAPI;Creator+of+AI+Career+Twin+%F0%9F%A4%96;Shipping+Production-Grade+Software" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/atharv-dev" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
+  &nbsp;
   <a href="mailto:atharv3444@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://instagram.com/beingatharvsrivastava_">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  &nbsp;
+  <a href="https://instagram.com/beingatharvsrivastava_" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://atharvportfolio-eight.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  &nbsp;
+  <a href="https://atharvportfolio-eight.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio" />
   </a>
-</p>
+</div>
 
-<img src="https://komarev.com/ghpvc/?username=Atharvsrivastav&style=flat-square&color=3B82F6&label=Profile+Views" />
+<br/>
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Atharvsrivastav&amp;style=flat-square&amp;color=3B82F6&amp;label=Profile+Views" alt="Profile Views" />
 </div>
 
 ---
 
 ## ⚡ About Me
 
-```typescript
-const atharv = {
-  name        : "Atharv Srivastava",
-  alias       : "Atharvsrivastav",
-  role        : "AI & Full-Stack Engineer",
-  university  : "Ajeenkya DY Patil University, Pune",
-  degree      : "B.Tech — AI & Data Science",
-  cgpa        : "8.0 (First Year)",
-  focus       : ["AI Systems", "Product Engineering", "SaaS", "Databases"],
-
-  currentlyBuilding : [
-    "🤖 AI Career Twin  — Multi-agent AI SaaS platform",
-    "⚽ Team Balancer   — Production sports team generator",
-  ],
-
-  askMeAbout : ["Next.js", "FastAPI", "PostgreSQL", "RAG", "AI Systems"],
-  philosophy : "Ship real software. Solve real problems. Measure everything.",
-};
-```
+<div align="center">
+  <img width="100%" src="assets/about-me.svg" alt="Atharv's Developer Profile" />
+</div>
 
 ---
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/Atharvsrivastav/ai-career-twin">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvsrivastav&repo=ai-career-twin&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6&description_lines_count=2" />
-</a>
-&nbsp;
-<a href="https://github.com/Atharvsrivastav/Atharv-portfolio">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Atharvsrivastav&repo=Atharv-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6&description_lines_count=2" />
-</a>
-
-</div>
-
-<br/>
+## 🚀 Signature Projects
 
 ### 🤖 AI Career Twin — Multi-Agent AI SaaS Platform
-> **Status:** `🟢 Active Development` &nbsp;|&nbsp; **Demo:** [ai-careertwin.vercel.app](https://ai-careertwin.vercel.app) &nbsp;|&nbsp; **Stack:** `Next.js · FastAPI · PostgreSQL · pgvector · OpenAI`
+> **Status:** `🟢 Active Development` &nbsp;|&nbsp; **Demo:** [ai-careertwin.vercel.app](https://ai-careertwin.vercel.app) &nbsp;|&nbsp; **Backend:** `FastAPI` &nbsp;|&nbsp; **Frontend:** `Next.js`
 
-A production-grade, multi-agent AI SaaS platform acting as an intelligent career companion for students and professionals.
+An intelligent, multi-agent career companion that provides automated resume scanning, LinkedIn optimization, and mock interviews. Powered by an async agent coordination pipeline.
 
-| Feature | Description |
-|---------|-------------|
-| 🧠 8 Specialized AI Agents | Resume Intelligence, LinkedIn Engine, Interview Coach, Skill Gap Analyzer |
-| 📦 RAG Pipeline | pgvector + OpenAI embeddings for semantic career search |
-| 🔐 Auth + RLS | Supabase Auth with Row-Level Security on every table |
-| ⚡ FastAPI Backend | Async Python microservices powering all agent workflows |
-| 🗺️ Career Roadmaps | Personalized AI-generated growth paths |
+<!-- Architecture Diagram (Direct flex of engineering system design) -->
+<div align="center" style="margin-top: 15px; margin-bottom: 20px;">
+  <img width="100%" src="assets/architecture.svg" alt="AI Career Twin Systems Architecture" />
+</div>
+
+<details>
+<summary><b>🔍 System Specifications &amp; Features</b></summary>
+
+| Module | Technical Implementation |
+|:---|:---|
+| 🧠 **8 Specialized Agents** | Structured LLM routers built with PydanticAI &amp; custom validation layers. |
+| 🗄️ **RAG Pipeline** | pgvector embeddings with semantic search threshold filters. |
+| 🔒 **Granular Security** | Supabase Auth coupled with strict PostgreSQL Row-Level Security (RLS) tables. |
+| ⚡ **Async Processing** | Non-blocking Python FastAPI workers executing background agent tasks. |
+</details>
 
 ---
 
 ### ⚽ Team Balancer — Production Sports Team Generator
-> **Status:** `🟢 Live` &nbsp;|&nbsp; **Demo:** [balanceteams.com](https://balanceteams.com) &nbsp;|&nbsp; **Stack:** `Next.js · TypeScript · Supabase · PostgreSQL`
+> **Status:** `🟢 Live in Production` &nbsp;|&nbsp; **Demo:** [balanceteams.com](https://balanceteams.com) &nbsp;|&nbsp; **Stack:** `Next.js · TypeScript · Supabase · PostgreSQL`
 
-Full-stack platform that generates skill-balanced sports teams using custom weighted algorithms.
+A fair-distribution team builder that generates skill-balanced sports teams using a custom-weighted balancing engine.
 
-| Feature | Description |
-|---------|-------------|
-| ⚖️ Balancing Algorithm | Seedable, skill-weighted fair distribution engine |
-| 📋 Audit Logs | Permanent generation history for every session |
-| 🔗 Share Links | Dynamic public roster pages |
-| 🛡️ Row-Level Security | Supabase RLS enforced across all tables |
-| 📱 Fully Responsive | Optimized for mobile + edge-cached on Cloudflare |
+<!-- Algorithmic Flow Diagram -->
+<div align="center" style="margin-top: 15px; margin-bottom: 20px;">
+  <img width="100%" src="assets/team-balancer.svg" alt="Team Balancer Algorithmic Flow" />
+</div>
+
+<details>
+<summary><b>⚖️ Algorithmic Implementation Details</b></summary>
+
+| Optimization | Description |
+|:---|:---|
+| ⚖️ **Weighted Balancing** | A seedable distribution engine that balances player skill attributes across rosters. |
+| 📋 **Audit Trails** | Complete permanent session audit logging utilizing Supabase PostgreSQL triggers. |
+| 🛡️ **Row-Level Security** | Custom Supabase policies ensuring users can only read/write their own rosters. |
+| 📱 **Edge Architecture** | Fully responsive layout caching public static rosters at the edge with Cloudflare. |
+</details>
 
 ---
 
-## 🛠️ Tech Stack
+### 🌐 Atharv Portfolio — Interactive Creative Portfolio
+> **Status:** `🟢 Live` &nbsp;|&nbsp; **Demo:** [atharvportfolio-eight.vercel.app](https://atharvportfolio-eight.vercel.app) &nbsp;|&nbsp; **Stack:** `React · Vite · GSAP · Framer Motion`
 
-### Languages
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-</p>
+A premium, highly interactive personal portfolio showcasing custom creative animations, a physics-based interactive constellation particle web, and an integrated AI concierge assistant.
 
-### Frontend & UI
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" />
-</p>
+<details>
+<summary><b>✨ Interactive Features &amp; Motion Design</b></summary>
 
-### Backend & Database
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=black" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-</p>
-
-### AI & Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/PydanticAI-E92063?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-### DevOps & Tools
-<p>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
+| Component | Technical Implementation |
+|:---|:---|
+| 🌌 **Constellation Canvas** | Interactive nodes-and-links canvas responding to cursor magnetism and scroll velocity. |
+| 💬 **Concierge Assistant** | Built-in custom conversational assistant designed to answer queries about projects and skills. |
+| 🌀 **Kinetic Animations** | Fine-tuned scroll triggers and entrance sequences using GSAP and Framer Motion. |
+| ⚡ **Vite Bundler** | Optimized asset bundling and fast hot module replacement for fluid performance. |
+</details>
 
 ---
 
-## 📊 GitHub Stats
+## 🛠️ Interactive Tech Stack
+
+Hover over the badges in the console below to see them light up with their brand colors.
 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Atharvsrivastav&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&icon_color=3B82F6&count_private=true&show=reviews,discussions_started" />
-&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atharvsrivastav&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=94A3B8&langs_count=8&hide=html" />
-
-</div>
-
-<div align="center">
-<img width="70%" src="https://nirzak-streak-stats.vercel.app/?user=Atharvsrivastav&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6" />
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Atharvsrivastav&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=FFFFFF&area=true&area_color=3B82F6" />
+  <img width="100%" src="assets/tech-stack.svg" alt="Atharv's Tech Stack Dashboard" />
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 📊 Engineering Analytics
+
+<!-- Custom Note explaining self-hosting to prevent broken images (Flexes DevOps skills) -->
+> [!TIP]
+> **DevOps Tip**: If GitHub stats images fail to load due to GitHub caching (Camo 502/404), self-host your own instance of `github-readme-stats` on Vercel in 1 click to bypass rate limits!
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Atharvsrivastav&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Atharvsrivastav&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=3B82F6&amp;text_color=94A3B8&amp;icon_color=3B82F6&amp;count_private=true&amp;show=reviews,discussions_started" alt="Atharv's GitHub Stats" />
+  &nbsp;
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atharvsrivastav&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=3B82F6&amp;text_color=94A3B8&amp;langs_count=8&amp;hide=html" alt="Atharv's Top Languages" />
 </div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Atharvsrivastav&amp;theme=tokyo-night&amp;hide_border=true&amp;bg_color=0D1117&amp;color=3B82F6&amp;line=3B82F6&amp;point=FFFFFF&amp;area=true&amp;area_color=3B82F6" alt="Atharv's Activity Graph" />
+</div>
+
+<details>
+<summary><b>🏆 View GitHub Trophies</b></summary>
+<br/>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Atharvsrivastav&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8&amp;column=6" alt="Trophies" />
+</div>
+</details>
 
 ---
 
-## 📅 My Journey
+## 📅 Chronology
 
 ```
-2025 ── Started B.Tech AI & Data Science @ ADYPU, Pune
-         ├─ Built foundations in DSA, OOP & Statistical Mathematics
-         └─ Shipped Team Balancer MVP (Next.js + Supabase + PostgreSQL)
+2025 ── Commenced B.Tech AI &amp; Data Science @ ADYPU, Pune
+         ├─ Mastered DSA, OOP &amp; Statistical Mathematics foundations
+         └─ Deployed Team Balancer MVP (Next.js + Supabase + Postgres)
 
-2026 ── Completed First Year | CGPA 8.0
-         ├─ Started AI Career Twin — Multi-Agent AI SaaS Platform
-         ├─ Built RAG pipeline with pgvector + OpenAI + PydanticAI
-         └─ Deep focus: AI Systems · Agentic AI · SaaS Engineering
+2026 ── Completed Year 1 | CGPA 8.0
+         ├─ Created AI Career Twin (Next.js + FastAPI + pgvector)
+         ├─ Designed RAG systems using async Python microservices
+         └─ Focus: Multi-Agent Architectures, Vector search &amp; Cloud databases
 ```
 
 ---
 
-## 💡 Current Status
-
-| Project | Status | Link |
-|---------|--------|------|
-| 🤖 AI Career Twin | `🟢 Active Development` | [ai-careertwin.vercel.app](https://ai-careertwin.vercel.app) |
-| ⚽ Team Balancer | `🟢 Live in Production` | [balanceteams.com](https://balanceteams.com) |
-| 🌐 Portfolio | `🟢 Live` | [atharvportfolio-eight.vercel.app](https://atharvportfolio-eight.vercel.app) |
-
----
-
-## 🤝 Connect With Me
+## 🤝 Connect
 
 <div align="center">
 
-| Platform | Link |
-|----------|------|
-| 📧 Email | [atharv3444@gmail.com](mailto:atharv3444@gmail.com) |
-| 💼 LinkedIn | [linkedin.com/in/atharv-dev](https://www.linkedin.com/in/atharv-dev) |
-| 🌐 Portfolio | [atharvportfolio-eight.vercel.app](https://atharvportfolio-eight.vercel.app) |
-| 🤖 AI Career Twin | [ai-careertwin.vercel.app](https://ai-careertwin.vercel.app) |
+| Platform | Endpoint |
+|:---|:---|
+| 📧 **Email** | [atharv3444@gmail.com](mailto:atharv3444@gmail.com) |
+| 💼 **LinkedIn** | [linkedin.com/in/atharv-dev](https://www.linkedin.com/in/atharv-dev) |
+| 📸 **Instagram** | [@beingatharvsrivastava_](https://instagram.com/beingatharvsrivastava_) |
+| 🌐 **Portfolio** | [atharvportfolio-eight.vercel.app](https://atharvportfolio-eight.vercel.app) |
 
 </div>
 
 ---
 
 <div align="center">
-
-> ⚡ *When I'm not shipping code, I'm hitting PRs in the gym or grinding in BGMI* 🏋️‍♂️🎮
-
-<br/>
-
-[![Profile Views](https://visitcount.itsvg.in/api?id=Atharvsrivastav&icon=5&color=6)](https://visitcount.itsvg.in)
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
-
+  <sub>⚡ <i>When I'm not writing code, I'm hitting PRs in the gym or grinding in BGMI</i> 🏋️‍♂️🎮</sub>
 </div>

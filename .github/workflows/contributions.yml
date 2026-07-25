@@ -1,0 +1,37 @@
+name: Daily Contribution Generator
+
+on:
+  schedule:
+    - cron: '30 15 * * *' # Runs daily at 9:00 PM IST (15:30 UTC)
+  workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
+
+jobs:
+  make-contributions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Make multiple commits
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # GitHub colors the contribution graph based on the number of commits on a given day,
+          # not the size of the commit. To show a dark green color, we perform multiple commits.
+          # We select a random number of commits between 7 and 15 to make it look natural and dark green.
+          NUM_COMMITS=$(( ( RANDOM % 9 ) + 7 ))
+          echo "Generating $NUM_COMMITS commits for today..."
+          
+          mkdir -p data
+          for i in $(seq 1 $NUM_COMMITS); do
+            echo "$(date -u): Contribution $i of $NUM_COMMITS" >> data/contributions.txt
+            git add data/contributions.txt
+            git commit -m "chore: daily contribution log $i/$NUM_COMMITS"
+          done
+          
+          git push

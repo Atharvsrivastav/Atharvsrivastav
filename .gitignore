@@ -1,0 +1,4 @@
+.jetro/
+.gemini/
+.agents/
+*.log

@@ -2,7 +2,7 @@ name: Daily Contribution Generator
 
 on:
   schedule:
-    - cron: '30 15 * * *' # Runs daily at 9:00 PM IST (15:30 UTC)
+    - cron: '30 13 * * *' # Runs daily at 7:00 PM IST (13:30 UTC)
   workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
 
 jobs:

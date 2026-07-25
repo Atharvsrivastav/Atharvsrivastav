@@ -22,9 +22,9 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # GitHub colors the contribution graph based on the number of commits on a given day,
-          # not the size of the commit. To show a dark green color, we perform multiple commits.
-          # We select a random number of commits between 7 and 15 to make it look natural and dark green.
-          NUM_COMMITS=$(( ( RANDOM % 9 ) + 7 ))
+          # not the size of the commit. To show the brightest green ('More' color), we perform multiple commits.
+          # We select a random number of commits between 30 and 50.
+          NUM_COMMITS=$(( ( RANDOM % 21 ) + 30 ))
           echo "Generating $NUM_COMMITS commits for today..."
           
           mkdir -p data

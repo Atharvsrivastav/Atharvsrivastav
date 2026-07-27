@@ -18,8 +18,8 @@ jobs:
 
       - name: Make multiple commits
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "atsgamer344@gmail.com"
+          git config --local user.name "Atharv Srivastava"
           
           # GitHub colors the contribution graph based on the number of commits on a given day,
           # not the size of the commit. To show the brightest green ('More' color), we perform multiple commits.

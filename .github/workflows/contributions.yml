@@ -1,0 +1,35 @@
+name: Daily Contribution Generator
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Runs daily at 2:00 AM UTC (7:30 AM IST)
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+
+jobs:
+  make-contributions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Make multiple commits
+        run: |
+          git config --local user.email "atsgamer344@gmail.com"
+          git config --local user.name "Atharv Srivastava"
+          
+          # Generate a random number of commits between 48 and 90
+          NUM_COMMITS=$(( ( RANDOM % 43 ) + 48 ))
+          echo "Generating $NUM_COMMITS commits for today..."
+          
+          mkdir -p data
+          for i in $(seq 1 $NUM_COMMITS); do
+            echo "$(date -u): Contribution $i of $NUM_COMMITS" >> data/contributions.txt
+            git add data/contributions.txt
+            git commit -m "chore: daily contribution log $i/$NUM_COMMITS"
+          done
+          
+          git push

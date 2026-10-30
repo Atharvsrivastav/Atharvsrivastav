@@ -111,10 +111,10 @@ Agentic AI · AI Developer Tools · Distributed Systems · Backend Architecture 
   <a href="https://www.linkedin.com/in/atharv-dev/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://x.com/YOUR_X_USERNAME">
+  <a href="https://x.com/AtharvShri37921">
     <img src="https://img.shields.io/badge/X-Follow-000000?style=flat-square&logo=x&logoColor=white" alt="X"/>
   </a>
-  <a href="https://www.instagram.com/beingatharvsrivastava_/">
+  <a href="https://www.instagram.com/beingatharvsrivastav/">
     <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   <a href="https://atharvportfolio-eight.vercel.app/">

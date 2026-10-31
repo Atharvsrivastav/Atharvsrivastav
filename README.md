@@ -1,135 +1,171 @@
- <div align="center">
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/Atharvsrivastav/Atharvsrivastav/main/assets/header.svg" width="100%" alt="Atharv Srivastava"/>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=15&duration=3500&pause=1200&color=64748B&center=true&vCenter=true&width=600&height=30&lines=AI+%26+Full-Stack+Developer;Building+AI-powered+software;Interested+in+systems+that+solve+real+problems" alt="Introduction" />
-
-# Atharv Srivastava
-
-**AI & Full-Stack Developer**
-
-B.Tech in Artificial Intelligence & Data Science · ADYPU, Pune, India
-
-[Portfolio](https://atharvportfolio-eight.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/atharv-dev/) · [GitHub](https://github.com/Atharvsrivastav) · [X](https://x.com/AtharvShri37921) · [Email](mailto:atharv3444@gmail.com)
-
-</div>
-
----
-
-## Profile
-
-I am a developer interested in building practical software across artificial intelligence, backend engineering, and full-stack development.
-
-My work focuses on AI-powered applications, multi-agent architectures, developer tools, and systems that make complex workflows easier to understand and use.
-
-I enjoy taking ideas from initial design through implementation, testing, and deployment, while continuously strengthening my engineering fundamentals.
-
-## Selected Projects
-
-### AI Career Twin
-**Multi-Agent Career Intelligence Platform**
-
-An AI-powered platform designed to help individuals understand and improve their professional profiles through eight specialized agents.
-
-- Resume analysis and ATS optimization
-- LinkedIn profile improvement
-- Skill-gap analysis and personalized roadmaps
-- AI-powered mock interviews and evaluation
-- Career-market research and career readiness insights
-
-**Technologies:** Next.js, FastAPI, PydanticAI, PostgreSQL, pgvector, Clerk
-
-[Live Application](https://ai-careertwin.vercel.app/) · [GitHub Repository](https://github.com/Atharvsrivastav/ai-career-twin)
-
-### IncidentGraph AI
-**Explainable Incident Investigation for Distributed Systems**
-
-A system for investigating failures in distributed microservice architectures through graph algorithms, telemetry, and evidence-grounded analysis.
-
-- Service dependency graphs and blast-radius analysis
-- Reverse BFS and 3-Color DFS
-- Root-cause prioritization using a binary heap
-- OpenTelemetry and Grafana Cloud integration
-- Deterministic fault simulation and AI-assisted investigation
-
-**Technologies:** TypeScript, Next.js, PostgreSQL, Prisma, OpenTelemetry, Grafana
-
-[Live Demo](https://incident-graph-ai.vercel.app/) · [GitHub Repository](https://github.com/Atharvsrivastav/IncidentGraphAI)
-
-### DevPilot AI
-**AI-Assisted Repository Intelligence**
-
-An AI-powered developer tool project focused on understanding software repositories and evaluating engineering quality.
-
-- Code quality and maintainability
-- Security and dependency analysis
-- Architecture and performance insights
-- Documentation and technical-debt analysis
-
-**Technologies:** Next.js, TypeScript, FastAPI, PydanticAI, PostgreSQL, pgvector
-
-[Live Demo](https://dev-pilot-ai-jade.vercel.app/) · [GitHub Repository](https://github.com/Atharvsrivastav/DevPilot-AI)
-
-### AI Attendance Risk Predictor
-**Academic Project · Data Structures & Machine Learning**
-
-An application exploring attendance-risk analysis, recovery planning, and algorithmic problem-solving.
-
-[GitHub Repository](https://github.com/Atharvsrivastav/Ai-attendence-Risk-Predictor)
+<p align="center">
+  <b>AI & Full-Stack Developer</b><br/>
+  Building intelligent applications, developer tools, and scalable software.
+  <br/><br/>
+  <a href="https://atharvportfolio-eight.vercel.app/">Portfolio</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/atharv-dev/">LinkedIn</a> &nbsp; · &nbsp;
+  <a href="https://x.com/AtharvShri37921">X</a> &nbsp; · &nbsp;
+  <a href="mailto:atharv3444@gmail.com">Email</a>
+</p>
 
 ---
 
-## Professional Experience & Collaboration
+## About
+
+I'm Atharv, a B.Tech student in Artificial Intelligence & Data Science at ADYPU, Pune.
+
+I enjoy engineering software that combines thoughtful product design with strong technical foundations. My interests span applied AI, multi-agent systems, backend architecture, distributed systems, and full-stack development.
+
+I like working across the entire development lifecycle — understanding a problem, designing a solution, building the application, and making it usable.
+
+**Current interests:** Agentic AI · Developer Tools · Distributed Systems · Backend Engineering
+
+## Selected Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/Atharvsrivastav/ai-career-twin">AI Career Twin</a></h3>
+
+<p><b>Multi-Agent Career Intelligence</b></p>
+
+An AI-powered career platform built around eight specialized agents.
+
+Resume analysis, LinkedIn optimization, skill-gap assessment, personalized roadmaps, interview coaching, evaluation, market research, and career intelligence.
+
+<br/>
+<sub>Next.js · FastAPI · PydanticAI · PostgreSQL · pgvector</sub>
+
+<br/><br/>
+<a href="https://ai-careertwin.vercel.app/">Live Application ↗</a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/Atharvsrivastav/IncidentGraphAI">IncidentGraph AI</a></h3>
+
+<p><b>Distributed Systems & Observability</b></p>
+
+An explainable incident investigation system for microservice architectures.
+
+Directed dependency graphs, blast-radius analysis, deterministic root-cause ranking, fault simulation, and evidence-grounded AI investigation.
+
+<br/>
+<sub>TypeScript · Next.js · PostgreSQL · OpenTelemetry · Grafana</sub>
+
+<br/><br/>
+<a href="https://incident-graph-ai.vercel.app/">Live Demo ↗</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/Atharvsrivastav/DevPilot-AI">DevPilot AI</a></h3>
+
+<p><b>AI-Powered Repository Intelligence</b></p>
+
+A developer-tool project focused on understanding software repositories through code quality, security, architecture, performance, and maintainability analysis.
+
+<br/>
+<sub>Next.js · TypeScript · FastAPI · PydanticAI · PostgreSQL</sub>
+
+<br/><br/>
+<a href="https://dev-pilot-ai-jade.vercel.app/">Live Demo ↗</a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/Atharvsrivastav/Ai-attendence-Risk-Predictor">AI Attendance Risk Predictor</a></h3>
+
+<p><b>Machine Learning & Data Structures</b></p>
+
+An academic project exploring attendance-risk prediction, recovery planning, explainable machine learning, and interactive algorithm concepts.
+
+<br/>
+<sub>TypeScript · Next.js · Prisma · Machine Learning · DSA</sub>
+
+<br/><br/>
+<a href="https://github.com/Atharvsrivastav/Ai-attendence-Risk-Predictor">View Repository ↗</a>
+
+</td>
+</tr>
+</table>
+
+## Experience & Product Work
 
 **BDX Datacentre — Student Intern**
 
-Contributed to internal engineering workflows and explored AI-assisted ticket-triage and knowledge-intelligence solutions.
-
-**Innovance Solutions — Collaborative Development**
-
-Contributed to Team Balancer, a sports-team coordination product involving player management and skill-balanced team generation.
-
-[Visit Team Balancer](https://balanceteams.com)
+Working on engineering workflows and exploring AI-assisted ticket triage and internal knowledge-intelligence solutions.
 
 **Cogniv Solutions — Product Development**
 
-Working on software products, AI-powered workflows, and digital solutions.
+Building digital products, AI-powered workflows, and software solutions.
 
-[Visit Cogniv Solutions](https://cognivsolutions.in)
+[Website ↗](https://cognivsolutions.in)
 
----
+**Innovance Solutions — Collaborative Development**
 
-## Technical Skills
+Contributed to Team Balancer, a sports-team coordination product focused on skill-balanced team generation and player management.
 
-| Area | Technologies |
-|---|---|
-| Languages | Java, TypeScript, JavaScript, C |
-| Frontend | React, Next.js, Angular, Tailwind CSS |
-| Backend | Node.js, Express, FastAPI |
-| AI & Data | PydanticAI, RAG, pgvector, PostgreSQL |
-| Databases | PostgreSQL, Supabase, Prisma |
-| Engineering Tools | Git, GitHub Actions, Docker |
-| Observability | OpenTelemetry, Grafana |
+[Team Balancer ↗](https://balanceteams.com)
 
-## Current Focus
+## Technical Toolkit
 
-- Developing an AI Repository Analyzer.
-- Exploring multi-agent AI architectures and RAG systems.
-- Strengthening backend engineering and distributed systems knowledge.
-- Improving software architecture, testing, and deployment practices.
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-2F2F2F?style=flat-square&logo=openjdk&logoColor=ED8B00)
+![TypeScript](https://img.shields.io/badge/TypeScript-2F2F2F?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-2F2F2F?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![C](https://img.shields.io/badge/C-2F2F2F?style=flat-square&logo=c&logoColor=A8B9CC)
+
+**Frontend & Application Development**
+
+![React](https://img.shields.io/badge/React-2F2F2F?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-2F2F2F?style=flat-square&logo=next.js&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-2F2F2F?style=flat-square&logo=angular&logoColor=DD0031)
+![Tailwind](https://img.shields.io/badge/Tailwind-2F2F2F?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+
+**Backend, AI & Data**
+
+![Node.js](https://img.shields.io/badge/Node.js-2F2F2F?style=flat-square&logo=node.js&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-2F2F2F?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-2F2F2F?style=flat-square&logo=fastapi&logoColor=009688)
+![PydanticAI](https://img.shields.io/badge/PydanticAI-2F2F2F?style=flat-square&logo=pydantic&logoColor=E92063)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2F2F2F?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Supabase](https://img.shields.io/badge/Supabase-2F2F2F?style=flat-square&logo=supabase&logoColor=3ECF8E)
+![Prisma](https://img.shields.io/badge/Prisma-2F2F2F?style=flat-square&logo=prisma&logoColor=white)
+
+**Engineering & Infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2F2F2F?style=flat-square&logo=docker&logoColor=2496ED)
+![Git](https://img.shields.io/badge/Git-2F2F2F?style=flat-square&logo=git&logoColor=F05032)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2F2F2F?style=flat-square&logo=githubactions&logoColor=2088FF)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-2F2F2F?style=flat-square&logo=opentelemetry&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-2F2F2F?style=flat-square&logo=grafana&logoColor=F46800)
+
+## Currently Building & Exploring
+
+- **AI Repository Analyzer** — Exploring AI-assisted codebase understanding.
+- **Agentic Systems** — Multi-agent orchestration and structured AI workflows.
+- **Retrieval-Augmented Generation** — Embeddings, vector search, and contextual retrieval.
+- **Systems Engineering** — Backend architecture, observability, reliability, and distributed systems.
 
 ## Connect
 
-I am interested in software engineering, applied AI, developer tools, and opportunities to build meaningful software.
+<p align="center">
+  <a href="https://www.linkedin.com/in/atharv-dev/"><img src="https://img.shields.io/badge/LinkedIn-Professional_Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://x.com/AtharvShri37921"><img src="https://img.shields.io/badge/X-@AtharvShri37921-000000?style=flat-square&logo=x&logoColor=white"/></a>
+  <a href="https://www.instagram.com/beingatharvsrivastav/"><img src="https://img.shields.io/badge/Instagram-@beingatharvsrivastav-E4405F?style=flat-square&logo=instagram&logoColor=white"/></a>
+  <a href="https://atharvportfolio-eight.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Website-333333?style=flat-square&logo=vercel&logoColor=white"/></a>
+  <a href="mailto:atharv3444@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+</p>
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Atharv-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharv-dev/)
-[![X](https://img.shields.io/badge/X-Atharv-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AtharvShri37921)
-[![Instagram](https://img.shields.io/badge/Instagram-Atharv-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/beingatharvsrivastav/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Website-333333?style=flat-square&logo=vercel&logoColor=white)](https://atharvportfolio-eight.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:atharv3444@gmail.com)
-
-<br/>
-
-*Building with purpose. Learning through engineering.*
-
-</div>
+<p align="center">
+  <sub>Thoughtful engineering. Continuous learning. Useful software.</sub>
+</p>

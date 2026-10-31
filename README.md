@@ -1,119 +1,128 @@
- <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=400&size=16&duration=3500&pause=1600&color=8B949E&center=true&vCenter=true&width=650&height=32&lines=AI+%26+Full-Stack+Developer;Building+AI-powered+software;Exploring+intelligent+systems+and+developer+tools" alt="Introduction"/>
-</p>
+ <div align="center">
 
-<h1 align="center">Atharv Srivastava</h1>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1800&color=58A6FF&center=true&vCenter=true&width=650&height=35&lines=AI+%26+Full-Stack+Developer;Building+AI-powered+products;Exploring+Multi-Agent+Systems;Turning+Ideas+Into+Software" alt="Typing animation" />
 
-<p align="center">
-  Artificial Intelligence & Data Science · ADYPU, Pune, India
-</p>
+</div>
 
-<p align="center">
-  <a href="https://atharvportfolio-eight.vercel.app">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/atharv-dev/">LinkedIn</a> ·
-  <a href="https://x.com/AtharvShri37921">X</a> ·
-  <a href="https://www.instagram.com/beingatharvsrivastava_/">Instagram</a> ·
-  <a href="mailto:atharv3444@gmail.com">Email</a>
-</p>
+# Hey, I'm Atharv 👋
+
+📍 **Pune, India** | 🎓 **B.Tech AI & Data Science @ ADYPU** | 🤖 **AI & Software Builder**
+
+I build AI-powered applications, developer tools, and practical software products. Currently exploring multi-agent systems, AI engineering, backend architecture, and full-stack development.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0A0A0A?style=flat-square&logo=vercel&logoColor=white)](https://atharvportfolio-eight.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharv-dev/)
+[![X](https://img.shields.io/badge/X-Follow-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AtharvShri37921)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/beingatharvsrivastav/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:atharv3444@gmail.com)
 
 ---
 
-## About
+## Tech Stack
 
-I am an AI and full-stack developer interested in designing and building software products that solve practical problems.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-My work spans AI-powered applications, multi-agent systems, backend engineering, developer tools, and distributed systems.
+---
 
-I enjoy understanding systems from the ground up — from application architecture and data flow to implementation, testing, and deployment.
+## Start Here
 
-## Selected Projects
+A few projects that best represent what I enjoy building.
 
-### AI Career Twin
-*Multi-agent career intelligence platform*
+- 🤖 **[AI Career Twin](https://ai-careertwin.vercel.app)** — A multi-agent AI career intelligence platform.
+- 🔍 **[IncidentGraph AI](https://incident-graph-ai.vercel.app)** — Explainable root-cause analysis for distributed systems.
+- 🧑‍💻 **[DevPilot AI](https://dev-pilot-ai-jade.vercel.app)** — AI-powered repository intelligence for developers.
 
-An AI-powered platform built around eight specialized agents to support career analysis and professional development.
+---
 
-Resume optimization, LinkedIn analysis, skill-gap assessment, personalized roadmaps, interview coaching, interview evaluation, market research, and career intelligence.
+## Current Projects
+
+### 🤖 AI & Agentic Systems
+
+**[AI Career Twin](https://github.com/Atharvsrivastav/ai-career-twin)** · [Live Demo](https://ai-careertwin.vercel.app)
+
+An AI-powered career intelligence platform designed around **8 specialized agents** that work across different parts of a person's professional journey.
+
+- 📄 Resume Analysis & ATS Optimization
+- 💼 LinkedIn Profile Optimization
+- 🎯 Skill Gap Analysis
+- 🗺️ Personalized Career Roadmaps
+- 🎤 AI Mock Interview Coach
+- 📊 Interview Performance Evaluation
+- 🌐 Career Market Research
+- 🧠 Career Intelligence & Readiness Analysis
 
 **Stack:** Next.js · FastAPI · PydanticAI · PostgreSQL · pgvector · Clerk
 
-[Application](https://ai-careertwin.vercel.app/) · [Repository](https://github.com/Atharvsrivastav/ai-career-twin)
+**[IncidentGraph AI](https://github.com/Atharvsrivastav/IncidentGraphAI)** · [Live Demo](https://incident-graph-ai.vercel.app)
 
-### IncidentGraph AI
-*Explainable incident investigation for distributed systems*
+An explainable incident investigation platform for distributed microservice architectures.
 
-A system designed to identify root causes of cascading failures in microservice architectures using graph algorithms and telemetry evidence.
-
-- Directed dependency graphs and blast-radius analysis
-- Reverse BFS and 3-Color DFS
-- Root-cause prioritization using a binary heap
-- OpenTelemetry and Grafana Cloud integration
-- Deterministic fault simulation and AI-assisted investigation
+- Directed service dependency graphs and blast-radius analysis
+- Reverse BFS, 3-Color DFS, and root-cause ranking
+- OpenTelemetry instrumentation and Grafana Cloud integration
+- Deterministic fault simulation and evidence-grounded AI investigation
 
 **Stack:** TypeScript · Next.js · PostgreSQL · Prisma · OpenTelemetry · Grafana
 
-[Live Demo](https://incident-graph-ai.vercel.app/) · [Repository](https://github.com/Atharvsrivastav/IncidentGraphAI)
+### 🧑‍💻 Developer Tools
 
-### DevPilot AI
-*AI-assisted repository intelligence*
+**[DevPilot AI](https://github.com/Atharvsrivastav/DevPilot-AI)** · [Live Demo](https://dev-pilot-ai-jade.vercel.app)
 
-A developer-tool project exploring automated analysis of software repositories across code quality, security, architecture, performance, and maintainability.
+An AI-assisted repository analysis platform exploring multiple dimensions of software quality.
+
+- Code quality and maintainability
+- Security and dependency analysis
+- Architecture and performance insights
+- Documentation and technical debt
 
 **Stack:** Next.js · TypeScript · FastAPI · PydanticAI · PostgreSQL · pgvector
 
-[Live Demo](https://dev-pilot-ai-jade.vercel.app/) · [Repository](https://github.com/Atharvsrivastav/DevPilot-AI)
+### 🚀 Product & Collaborative Work
 
-### AI Attendance Risk Predictor
-*Academic project · Machine learning and data structures*
+- **[Team Balancer](https://balanceteams.com)** — Skill-balanced sports team generation, player management, and team coordination. Collaborative product work with Innovance Solutions.
+- **[Cogniv Solutions](https://cognivsolutions.in)** — Working on digital products, AI-powered workflows, and software solutions.
 
-An application exploring attendance-risk prediction, recovery planning, and algorithmic problem-solving.
+### 🎓 Academic Projects
 
-[Repository](https://github.com/Atharvsrivastav/Ai-attendence-Risk-Predictor)
+**[AI Attendance Risk Predictor](https://github.com/Atharvsrivastav/Ai-attendence-Risk-Predictor)**
+
+An academic project combining data structures, attendance-risk analysis, explainable machine learning, and recovery planning.
 
 ---
 
-## Collaborative Work
+## What I'm Doing
 
-**Team Balancer** — A sports-team coordination product involving skill-balanced team generation and player management. Collaborative development with Innovance Solutions.
+- Building AI-powered products and multi-agent applications.
+- Exploring RAG pipelines and AI developer tools.
+- Working on an **AI Repository Analyzer** to explore automated codebase understanding.
+- Improving my foundations in DSA, backend engineering, and system design.
+- Learning by building, testing, and refining real projects.
 
-[balanceteams.com](https://balanceteams.com)
-
-**Cogniv Solutions** — Developing digital products, AI-powered workflows, and software solutions.
-
-[cognivsolutions.in](https://cognivsolutions.in)
-
-## Experience
-
-**Student Intern — BDX Datacentre**
-
-Working on internal engineering initiatives and exploring AI-assisted workflow automation and knowledge-intelligence prototypes.
-
-## Technologies
-
-**Languages:** Java · TypeScript · JavaScript · C
-
-**Frontend:** React · Next.js · Angular · Tailwind CSS
-
-**Backend:** Node.js · Express · FastAPI
-
-**AI Engineering:** PydanticAI · OpenAI API · RAG · pgvector
-
-**Data:** PostgreSQL · Supabase · Prisma
-
-**Infrastructure:** Docker · Git · GitHub Actions · OpenTelemetry · Grafana
-
-## Current Focus
-
-- AI Repository Analyzer — codebase understanding and repository intelligence.
-- Multi-agent architectures and AI orchestration.
-- Retrieval-augmented generation and vector search.
-- Backend architecture and distributed systems.
-- Building reliable, maintainable software products.
+---
 
 ## Connect
 
-[Portfolio](https://atharvportfolio-eight.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/atharv-dev/) · [X](https://x.com/AtharvShri37921) · [Instagram](https://www.instagram.com/beingatharvsrivastava_/) · [GitHub](https://github.com/Atharvsrivastav) · [Email](mailto:atharv3444@gmail.com)
+I'm interested in software engineering, AI projects, collaboration, and building useful products.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Atharvsrivastav-181717?style=flat-square&logo=github)](https://github.com/Atharvsrivastav)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Atharv-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/atharv-dev/)
+[![X](https://img.shields.io/badge/X-AtharvShri37921-000000?style=flat-square&logo=x)](https://x.com/AtharvShri37921)
+[![Instagram](https://img.shields.io/badge/Instagram-Atharv-E4405F?style=flat-square&logo=instagram)](https://www.instagram.com/beingatharvsrivastav/)
+[![Website](https://img.shields.io/badge/Website-Portfolio-333333?style=flat-square&logo=vercel)](https://atharvportfolio-eight.vercel.app/)
+
+---
 
 <p align="center">
-  <sub>Engineering ideas into useful software.</sub>
+  <i>Curious by nature. Building through code. Improving with every project.</i>
 </p>
